@@ -1,4 +1,4 @@
-name: List services in GCP 1
+name: List computes in GCP
 on:
   workflow_dispatch:
 
