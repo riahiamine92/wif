@@ -22,4 +22,4 @@ jobs:
         gcloud auth login --brief --cred-file="${{ steps.auth.outputs.credentials_file_path }}" --verbosity debug
         cat "${{ steps.auth.outputs.credentials_file_path }}"
         gcloud auth list
-        gcloud compute instances list --project cacib-admingrc-sbox-b07a --verbosity debug
+        gcloud compute instances list --project cacib-poc-sbox-7a09 --verbosity debug
