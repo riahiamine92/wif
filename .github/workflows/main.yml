@@ -24,4 +24,3 @@ jobs:
         gcloud auth list
         
         gcloud compute instances list --project cacib-poc-sbox-7a09 --verbosity debug
-        gsutil ls gs://demo-bucket-3847feb5f3f2 
