@@ -25,3 +25,4 @@ jobs:
         
         gcloud compute instances list --project cacib-poc-sbox-7a09 --verbosity debug
         gcloud storage buckets list --impersonate-service-account=sa-test@cacib-admingrc-sbox-b07a.iam.gserviceaccount.com --project cacib-admingrc-sbox-b07a
+        gsutil -i sa-test@cacib-admingrc-sbox-b07a.iam.gserviceaccount.com ls gs://demo-bucket-3847feb5f3f2
